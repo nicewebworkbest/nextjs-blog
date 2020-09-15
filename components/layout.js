@@ -7,13 +7,13 @@ const name = 'Harry Wang'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
-    return (
+    return ( 
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
                 <meta
                     name="description"
-                    content="Learn how to build a personal website using Next.js"
+                    content="Learn how1 to build a personal website using Next.js"
                 />
                 <meta
                     property="og:image"
